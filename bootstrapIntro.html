@@ -1,17 +1,71 @@
 <!doctype html>
 <html lang="en">
-  <head>
+  <head class="container">
+    <title>Rubber Band</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=./style.css>
+    <nav class="navbar navbar-light">
+      
+      <div class="container-fluid"  >
+        <span class="navbar-brand mb-0 h1"><img src=".\assets\images\Band Logo.jpg" width="40" height="40"><b>  Rubber Band</b></span>
+      </div>
+    </nav>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <div class="row align-items-start">
+      <div class="col" width=100%>
+        <article>
+          <h1><u>Upcoming Tour Dates</u></h1>
+          <p>1st March 2021 - Leeds</p>
+          <p>2nd March 2021 - Manchester</p>
+          <p>4th March 2021 - Edinburgh</p>
+          <p>5th MMarch 2021 - London</p>
+          <p>6th March 2021 - Paris</p>
+          <p>7th March 2021 - Berlin</p>
+          <p>9th March 2021 - Budapest</p>
+          <p>11th March 2021 - Amsterdam</p>
+          <br>
+          <p>More to be announced in the upcoming weeks!</p>
+        </article>
+
+        </article>
+      </div>
+      <div class="col" width=100%>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <div id="bandPhotoSlide" class="band slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets\images\Stock Band 1.jfif" class="d-block w-30" alt="Image of lead band member">
+            </div>
+            <div class="carousel-item">
+              <img src="assets\images\Stock Band 2.jfif" class="d-block w-30" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets\images\Stock Band 3.jfif" class="d-block w-30" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col" width=100%>
+        <article>
+          <h1><u>Videos</u></h1>
+          <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eBG7P-K-r1Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SBjQ9tuuTJQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1VQ_3sBZEm0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <p>© 2021</p>
+    </footer>
   </body>
 </html>
